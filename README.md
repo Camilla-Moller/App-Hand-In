@@ -13,7 +13,7 @@ Affaldvarme Aarhus, actually has a great website with various of good informatio
 The challenge is however, that the process of ordering the garbage collector is complicated and the website is messy as the website has a scattered purpose of: district heating and garbage.
 
 ### The REUSE App
-As a first priority REUSE should be able to order the garbage collector, in a simple way. Moreover customers should be able to take a picture of the items, that are to be collected.
+As a first priority REUSE should be able to order the garbage collector, in a simple way. Moreover customers should be able to take a picture of the items, that are to be collected. Furthermore, general information about reuse and sorting should be presented in a nice and user-friendly way. 
 
 If it is possible the idea is to sort of create a Marketplace like Facebooks´ for items that would be thrown away otherwise. The pupose is to make it easy for users to get rid of goods/items in the city, but rather than throwing it away, recycling the items. Discuss this with teachers :) 
 
