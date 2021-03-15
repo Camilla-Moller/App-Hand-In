@@ -48,10 +48,12 @@ The REUSE App will be heavily inspired by the content of https://www.affaldvarme
 
 
 ### Could have
-- [ ] Prompt message when ordering garbage car (“Are you sure your items are not reusable? Try our feature REUSE”)
+- [ ] Prompt message when ordering garbage collector (“Are you sure your items are not reusable? Try our feature REUSE”)
+
       (Customers should be informed of others options than to throw the item(s) away) 
+
 - [ ] REUSE: Choose item --> track location --> let user “take” the item by confirming 
-  - (Delete item, cancel garbage car)
+  - (Delete item, cancel garbage collector)
 
 
 ### Wil not include
@@ -60,9 +62,9 @@ The REUSE App will be heavily inspired by the content of https://www.affaldvarme
     - [ ] Logs into username/ password secured, admin portal on any app, and see user analytics (number of users on the app, new downloads, their email IDs/ contact details).
     
 - [ ] Notify function: 
-  If left behind garbage is found around the city, a user can notify the system with a picture and a quick description.
-  A quick description is the same formula as when a user orders the garbage collector on their own, however the formula is optional to fulfill, and thereby easier for users 	to quickly notify the system.
-  If confirmed by a certain number of people over a specified period of time the garbage car will be ordered automatically. 
+  If left behind garbage-items is found around the city, a user can notify the system with a picture and a quick description.
+  A quick description is the same formula as when a user orders the garbage collector on their own, however the formula is optional to fulfill, and thereby easier for users 	  to quickly notify the system.
+  If confirmed by a certain number of people over a specified period of time, the garbage collector will be ordered automatically. 
  
 
 ## First draft sketch
