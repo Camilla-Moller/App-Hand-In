@@ -15,7 +15,7 @@ The challenge is however, that the process of ordering the garbage collector is 
 ### The REUSE App
 As a first priority REUSE should be able to order the garbage collector, in a simple way. Moreover customers should be able to take a picture of the items, that are to be collected. Furthermore, general information about reuse and sorting should be presented in a nice and user-friendly way. 
 
-If it is possible the idea is to sort of create a Marketplace like Facebooks´ for items that would be thrown away otherwise. The pupose is to make it easy for users to get rid of goods/items in the city, but rather than throwing it away, recycling the items. Discuss this with teachers :) 
+If it is possible the idea is to sort of create a Marketplace like Facebooks´ for items that would be thrown away otherwise. This marketplace is called "REUSE". The pupose is to make it easy for users to get rid of goods/items in the city, but rather than throwing it away, recycling the items. Discuss this with teachers :) 
 
 The REUSE App will be heavily inspired by the content of https://www.affaldvarme.dk/
 
