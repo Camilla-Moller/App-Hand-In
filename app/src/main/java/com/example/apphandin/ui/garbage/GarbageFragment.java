@@ -1,4 +1,4 @@
-package com.example.apphandin.ui.gallery;
+package com.example.apphandin.ui.garbage;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.apphandin.R;
 
-public class GalleryFragment extends Fragment {
+public class GarbageFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
+    private GarbageViewModel garbageViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        garbageViewModel =
+                new ViewModelProvider(this).get(GarbageViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_garbage, container, false);
+        final TextView textView = root.findViewById(R.id.text_garbage);
+        garbageViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
