@@ -13,55 +13,63 @@ Affaldvarme Aarhus, actually has a great website with various of good informatio
 The challenge is however, that the process of ordering the garbage collector is complicated and the website is messy as the website has a scattered purpose of: district heating and garbage.
 
 ### The REUSE App
-As a first priority REUSE should be able to order the garbage collector, in a simple way. 
-Moreover customers should be able to take a picture of the items, that are to be collected.
-Secondly, customers should be informed of others options than to throw the item(s) away. 
+As a first priority REUSE should be able to order the garbage collector, in a simple way. Moreover customers should be able to take a picture of the items, that are to be collected. Furthermore, general information about reuse and sorting should be presented in a nice and user-friendly way. 
+
+If it is possible the idea is to sort of create a Marketplace like Facebooks´ for items that would be thrown away otherwise. This marketplace is called "REUSE". The pupose is to make it easy for users to get rid of goods/items in the city, but rather than throwing it away, recycling the items. Discuss this with teachers :) 
 
 The REUSE App will be heavily inspired by the content of https://www.affaldvarme.dk/
 
 ## Requirements ordered by the MoSCoW method
 
 ### Must have
-- Sign-In and login
-- Navigation bar
-- Search bar
-- Roles (End-user and Affaldvarme Aarhus)
-- Booking system for garbage collector
-  - Title, description
-  - Maps
-	- Camera
-- Permission to: use camera, track location.
-- Tips and tricks page
-- Sorting advice page
-- About us page
-- Editable for certain roles (ex. delete)
+- [ ] Sign-In and login
+- [ ] Navigation bar
+- [ ] Search bar
+- [ ] Roles (End-user and Affaldvarme Aarhus)
+- [ ] Booking system for garbage collector
+  - [ ] Title, description
+  - [ ] Maps
+  - [ ] Camera
+- [ ] Permission to: use camera, track location.
+- [ ] Tips and tricks page
+- [ ] Sorting advice page
+- [ ] About us page
+- [ ] Editable for certain roles (ex. delete)
 
 
 ### Should have
-- Post items on REUSE
-	- Title, description, condition, color, picture.
-	- Maps
-	- Camera
-- Browse through items on REUSE + description 
-- Chat function
-- Booking system: Automated date
+- [ ] Post items on REUSE
+     - [ ] Title, description, condition, color, picture.
+     - [ ] Maps
+     - [ ] Camera
+- [ ] Browse through items on REUSE + description 
+- [ ] Chat function
+- [ ] Booking system: Automated date
 
 
 ### Could have
-- Prompt message when ordering garbage car (“Are you sure your items are not reusable? Try our feature REUSE”)
-- REUSE: Choose item --> track location --> let user “take” the item by confirming 
-  - (Delete item, cancel garbage car)
+- [ ] Prompt message when ordering garbage collector (“Are you sure your items are not reusable? Try our feature REUSE”)
+
+      (Customers should be informed of others options than to throw the item(s) away) 
+
+- [ ] REUSE: Choose item --> track location --> let user “take” the item by confirming 
+  - (Delete item, cancel garbage collector)
 
 
 ### Wil not include
-- Admin features
-    - Ability moderate users and Affaldvarme Aarhus users
-    - Logs into username/ password secured, admin portal on any app, and see user analytics (number of users on the app, new downloads, their email IDs/ contact details).
+- [ ] Admin features
+    - [ ] Ability moderate users and Affaldvarme Aarhus users
+    - [ ] Logs into username/ password secured, admin portal on any app, and see user analytics (number of users on the app, new downloads, their email IDs/ contact details).
     
-- Notify function: 
-  If left behind garbage is found around the city, a user can notify the system with a picture and a quick description.
-  A quick description is the same formula as when a user orders the garbage collector on their own, however the formula is optional to fulfill, and thereby easier for users to quickly notify the system.
-  If confirmed by a certain number of people over a specified period of time the garbage car will be ordered automatically. 
+- [ ] Notify function: 
+  If left behind garbage-items is found around the city, a user can notify the system with a picture and a quick description.
+  A quick description is the same formula as when a user orders the garbage collector on their own, however the formula is optional to fulfill, and thereby easier for users 	  to quickly notify the system.
+  If confirmed by a certain number of people over a specified period of time, the garbage collector will be ordered automatically. 
+ 
+
+## First draft sketch
+
+![alt text](https://github.com/Camilla-Moller/App-Hand-In/blob/master/app/src/158432612_3587778344665668_989699080335319988_n.jpg)
 
 
 ## User Story
