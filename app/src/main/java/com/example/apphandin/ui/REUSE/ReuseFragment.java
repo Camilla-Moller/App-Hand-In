@@ -1,4 +1,4 @@
-package com.example.apphandin.ui.garbage;
+package com.example.apphandin.ui.REUSE;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,35 +14,32 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.apphandin.R;
 
-public class GarbageFragment extends Fragment {
+public class ReuseFragment extends Fragment {
 
-    private GarbageViewModel garbageViewModel;
-
+    private ReuseViewModel reuseViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_garbage, container, false);
+        return inflater.inflate(R.layout.fragment_reuse, container, false);
     }
 
     @Override
     public void onStart() {
         super.onStart();
-        garbageViewModel = new ViewModelProvider(this).get(GarbageViewModel.class);
-        EditText messageEditText = getView().findViewById(R.id.message_editText);
-        TextView messageTextView = getView().findViewById(R.id.message_textView);
+        reuseViewModel = new ViewModelProvider(this).get(ReuseViewModel.class);
+        EditText reuseEditText = getView().findViewById(R.id.reuse_editText);
+        TextView reuseTextView = getView().findViewById(R.id.reuse_textView);
         Button button = getView().findViewById(R.id.button);
-        garbageViewModel.getMessage().observe(this, message -> {
-            if (message != null)
-                messageTextView.setText(message.getBody());
+        reuseViewModel.getReuse().observe(this, reuse -> {
+            if (reuse != null)
+                reuseTextView.setText(reuse.getBody());
         });
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                garbageViewModel.saveMessage(messageEditText.getText().toString());
+                reuseViewModel.saveReuse(reuseEditText.getText().toString());
 
             }
         });
     }
-
-
 }

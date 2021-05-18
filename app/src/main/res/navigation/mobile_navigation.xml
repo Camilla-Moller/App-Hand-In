@@ -18,8 +18,20 @@
         tools:layout="@layout/fragment_garbage" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.apphandin.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_reuse"
+        android:name="com.example.apphandin.ui.REUSE.ReuseFragment"
+        android:label="@string/menu_Reuse"
+        tools:layout="@layout/fragment_reuse" />
+
+    <fragment
+        android:id="@+id/nav_wastebin"
+        android:name="com.example.apphandin.ui.wasteBin.WasteBinFragment"
+        android:label="Wastebin"
+        tools:layout="@layout/fragment_wastebin"/>
+
+    <fragment
+        android:id="@+id/nav_tips"
+        android:name="com.example.apphandin.ui.tips.TipsFragment"
+        android:label="@string/tips_tricks"
+        tools:layout="@layout/fragment_tips"/>
 </navigation>

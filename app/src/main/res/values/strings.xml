@@ -3,14 +3,19 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">REUSE</string>
-    <string name="nav_header_subtitle">En del af din hverdag</string>
+    <string name="nav_header_subtitle">Every day life</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_garbage_collector">Garbage collector</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_Reuse">REUSE</string>
+    <string name="menu_waste_bin">Waste Bin</string>
     <string name="REUSE" />
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="waste_bin_address">waste bin address</string>
+    <string name="request">Request</string>
+    <string name="reuse_item">Post REUSE item</string>
+    <string name="tips_tricks"><![CDATA[Tips & Tricks]]></string>
 </resources>

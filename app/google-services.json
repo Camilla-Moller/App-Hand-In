@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "985961561933",
+    "project_id": "apphandin",
+    "storage_bucket": "apphandin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985961561933:android:f671010161db54b5d90104",
+        "android_client_info": {
+          "package_name": "com.example.apphandin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985961561933-ojtrmdsjenr03ogb7app4nooav4njngu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4scBBMmlHjUFoqisTL4RqqkNayhNtv0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985961561933-ojtrmdsjenr03ogb7app4nooav4njngu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

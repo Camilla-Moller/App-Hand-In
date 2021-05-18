@@ -1,4 +1,4 @@
-package com.example.apphandin.ui.garbage;
+package com.example.apphandin.ui.wasteBin;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -6,7 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
+import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -14,35 +15,30 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.apphandin.R;
 
-public class GarbageFragment extends Fragment {
+public class WasteBinFragment extends Fragment {
 
-    private GarbageViewModel garbageViewModel;
-
+    private WasteBinViewModel wasteBinViewModel;
+    private EditText editText;
+    private ListView listView;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_garbage, container, false);
+    return inflater.inflate(R.layout.fragment_wastebin,container,false);
     }
 
     @Override
     public void onStart() {
         super.onStart();
-        garbageViewModel = new ViewModelProvider(this).get(GarbageViewModel.class);
-        EditText messageEditText = getView().findViewById(R.id.message_editText);
-        TextView messageTextView = getView().findViewById(R.id.message_textView);
+       wasteBinViewModel = new ViewModelProvider(this).get(WasteBinViewModel.class);
+       wasteBinViewModel.getSearchedWasteBin().observe(this, wasteBin -> Toast.makeText(getContext(), wasteBin.getAddress(), Toast.LENGTH_SHORT).show());
         Button button = getView().findViewById(R.id.button);
-        garbageViewModel.getMessage().observe(this, message -> {
-            if (message != null)
-                messageTextView.setText(message.getBody());
-        });
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                garbageViewModel.saveMessage(messageEditText.getText().toString());
-
+                wasteBinViewModel.searchForWasteBin("address");
             }
         });
-    }
 
+    }
 
 }

@@ -13,8 +13,17 @@
             android:icon="@drawable/ic_menu_garbage_collector"
             android:title="@string/menu_garbage_collector" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_reuse"
+            android:icon="@drawable/ic_baseline_find_replace_24"
+            android:title="@string/menu_Reuse" />
+        <item
+            android:id="@+id/nav_wastebin"
+            android:icon="@drawable/ic_menu_wastebin"
+            android:title="@string/menu_waste_bin"/>
+
+        <item
+            android:id="@+id/nav_tips"
+            android:icon="@drawable/ic_menu_tips"
+            android:title="@string/tips_tricks"/>
     </group>
 </menu>

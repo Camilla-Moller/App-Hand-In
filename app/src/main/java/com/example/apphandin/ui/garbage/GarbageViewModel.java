@@ -1,19 +1,23 @@
 package com.example.apphandin.ui.garbage;
 
 import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+
 
 public class GarbageViewModel extends ViewModel {
 
-    private MutableLiveData<String> mText;
+    private final GarbageRepository garbageRepository;
 
     public GarbageViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is garbage collector fragment");
+        garbageRepository = GarbageRepository.getInstance();
     }
 
-    public LiveData<String> getText() {
-        return mText;
+    public void saveMessage(String message) {
+        garbageRepository.saveMessage(message);
     }
+
+    public LiveData<Garbage> getMessage() {
+        return garbageRepository.getMessage();
+    }
+
 }
