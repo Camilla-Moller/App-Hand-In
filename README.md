@@ -5,7 +5,7 @@ App developed in Android Studio
 
 
 # REUSE
-The folder REUSE, and associated xml files are heavily inspired by: https://codinginflow.com/tutorials/android/firebase-storage-upload-and-retrieve-images/part-8-delete-uploads
+The folder REUSE, and associated xml files are heavily inspired by the firebase storage serie from Codingflow.com: https://codinginflow.com/tutorials/android/firebase-storage-upload-and-retrieve-images/part-8-delete-uploads
 
 ## General Info
 
