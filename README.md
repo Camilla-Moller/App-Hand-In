@@ -1,6 +1,8 @@
 # App-Hand-In
-Android Studio
-https://www.youtube.com/watch?v=8L7cP21uNgw
+Youtube link: https://www.youtube.com/watch?v=8L7cP21uNgw
+
+App developed in Android Studio
+
 
 # REUSE
 The folder REUSE, and associated xml files are heavily inspired by: https://codinginflow.com/tutorials/android/firebase-storage-upload-and-retrieve-images/part-8-delete-uploads
