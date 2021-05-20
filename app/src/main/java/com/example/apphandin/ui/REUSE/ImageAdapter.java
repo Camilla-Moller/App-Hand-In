@@ -68,9 +68,7 @@ import java.util.List;
             @Override
             public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
                 menu.setHeaderTitle("Select Action");
-                MenuItem doWhatever = menu.add(Menu.NONE, 1, 1, "Do whatever");
-                MenuItem delete = menu.add(Menu.NONE, 2, 2, "Delete");
-                doWhatever.setOnMenuItemClickListener(this);
+                MenuItem delete = menu.add(Menu.NONE, 1, 1, "Delete");
                 delete.setOnMenuItemClickListener(this);
             }
             @Override
@@ -80,9 +78,6 @@ import java.util.List;
                     if (position != RecyclerView.NO_POSITION) {
                         switch (item.getItemId()) {
                             case 1:
-                                mListener.onWhatEverClick(position);
-                                return true;
-                            case 2:
                                 mListener.onDeleteClick(position);
                                 return true;
                         }
@@ -93,7 +88,6 @@ import java.util.List;
         }
         public interface OnItemClickListener {
             void onItemClick(int position);
-            void onWhatEverClick(int position);
             void onDeleteClick(int position);
         }
         public void setOnItemClickListener(OnItemClickListener listener) {

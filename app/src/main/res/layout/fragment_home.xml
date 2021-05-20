@@ -48,9 +48,8 @@
         android:id="@+id/text_reuse"
         android:layout_width="332dp"
         android:layout_height="133dp"
-        android:text="Welcome to REUSE.
-        This is an app where you can order the garbage collector, post items on our marketplace REUSE and much more.
-        We hope you enjoy our services, and you are always welcome to contact AarhusMoreinfo@gmail.com for more information."
+        android:text="Welcome to REUSE. This is an app where you can order the garbage collector, post items on our marketplace REUSE and much more.
+                         We hope you enjoy our services, and you are always welcome to contact AarhusMoreinfo@gmail.com for more information."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
