@@ -17,5 +17,9 @@
     <string name="waste_bin_address">waste bin address</string>
     <string name="request">Request</string>
     <string name="reuse_item">Post REUSE item</string>
-    <string name="tips_tricks"><![CDATA[Tips & Tricks]]></string>
+    <string name="tips_tricks"><![CDATA[Tips]]></string>
+    <string name="garbage_name">Name</string>
+    <string name="garbage_address">Address</string>
+    <string name="garbage_city">City</string>
+    <string name="garbage_itemDescription">Item description ex. couch</string>
 </resources>

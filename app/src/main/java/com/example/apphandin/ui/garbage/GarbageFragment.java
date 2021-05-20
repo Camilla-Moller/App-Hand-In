@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -28,18 +28,17 @@ public class GarbageFragment extends Fragment {
     public void onStart() {
         super.onStart();
         garbageViewModel = new ViewModelProvider(this).get(GarbageViewModel.class);
-        EditText messageEditText = getView().findViewById(R.id.message_editText);
-        TextView messageTextView = getView().findViewById(R.id.message_textView);
+        EditText nameEditText = getView().findViewById(R.id.name_editText);
+        EditText addressEditText = getView().findViewById(R.id.address_editText);
+        EditText cityEditText = getView().findViewById(R.id.city_editText);
+        EditText itemDescriptionEditText = getView().findViewById(R.id.itemDescription_editText);
+
         Button button = getView().findViewById(R.id.button);
-        garbageViewModel.getMessage().observe(this, message -> {
-            if (message != null)
-                messageTextView.setText(message.getBody());
-        });
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                garbageViewModel.saveMessage(messageEditText.getText().toString());
-
+                garbageViewModel.saveOrder(nameEditText.getText().toString(), addressEditText.getText().toString(), cityEditText.getText().toString(), itemDescriptionEditText.getText().toString());
+                Toast.makeText(getContext(),"Garbage Collector ordered", Toast.LENGTH_LONG).show();
             }
         });
     }

@@ -25,6 +25,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.REUSE.ReuseActivity"
+            android:label="Add item to REUSE"
+            android:theme="@style/Theme.AppHandIn.NoActionBar">
+        </activity>
+        <activity android:name=".ui.REUSE.ImagesActivity"
+            android:label="REUSE"
+            android:theme="@style/Theme.AppHandIn.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

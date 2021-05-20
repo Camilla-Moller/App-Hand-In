@@ -12,8 +12,14 @@ public class GarbageLiveData extends LiveData<Garbage> {
     private final ValueEventListener listener = new ValueEventListener() {
         @Override
         public void onDataChange(@NonNull DataSnapshot snapshot) {
-            Garbage message = snapshot.getValue(Garbage.class);
-            setValue(message);
+            Garbage name = snapshot.getValue(Garbage.class);
+            setValue(name);
+            Garbage address = snapshot.getValue(Garbage.class);
+            setValue(address);
+            Garbage city = snapshot.getValue(Garbage.class);
+            setValue(city);
+            Garbage itemDescription = snapshot.getValue(Garbage.class);
+            setValue(itemDescription);
         }
 
         @Override

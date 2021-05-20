@@ -17,11 +17,12 @@
         android:label="@string/menu_garbage_collector"
         tools:layout="@layout/fragment_garbage" />
 
-    <fragment
+
+    <activity
         android:id="@+id/nav_reuse"
-        android:name="com.example.apphandin.ui.REUSE.ReuseFragment"
-        android:label="@string/menu_Reuse"
-        tools:layout="@layout/fragment_reuse" />
+        android:name="com.example.apphandin.ui.REUSE.ReuseActivity"
+        android:label="@string/REUSE"
+        tools:layout="@layout/activity_reuse"/>
 
     <fragment
         android:id="@+id/nav_wastebin"

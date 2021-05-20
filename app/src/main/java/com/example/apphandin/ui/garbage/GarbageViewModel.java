@@ -1,6 +1,5 @@
 package com.example.apphandin.ui.garbage;
 
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
 
@@ -12,12 +11,9 @@ public class GarbageViewModel extends ViewModel {
         garbageRepository = GarbageRepository.getInstance();
     }
 
-    public void saveMessage(String message) {
-        garbageRepository.saveMessage(message);
+    public void saveOrder(String name, String address, String city, String itemDescription) {
+        garbageRepository.saveOrder(name, address, city, itemDescription);
     }
 
-    public LiveData<Garbage> getMessage() {
-        return garbageRepository.getMessage();
-    }
 
 }
